@@ -1,9 +1,14 @@
 [core]
     analytics = true
-    remote = remote_gdrive
+    remote = origin
 ['remote "remote_storage"']
     url = ../../dvc_remote
 ['remote "remote_gdrive"']
     url = gdrive://1Xksic5I2SLJT8jeT73JV1NsNY72IBvhU
     gdrive_client_id = 161813625923-5qrgogvsda2p7kenp2q5e292shlujnru.apps.googleusercontent.com
     gdrive_client_secret = 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
+['remote "origin"']
+    url = https://dagshub.com/salimmulla2021Private/Template_MLOps_accidents.dvc
+    auth = basic
+    user = salimmulla2021Private
+    password = fbc4edf1ee7c1c26b6cd9f3ddd725179109f746e
