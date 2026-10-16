@@ -6,4 +6,4 @@
 ['remote "remote_gdrive"']
     url = gdrive://1Xksic5I2SLJT8jeT73JV1NsNY72IBvhU
     gdrive_client_id = 
-    gdrive_client_secret =
+    gdrive_client_secret = 
